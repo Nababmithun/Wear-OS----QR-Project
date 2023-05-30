@@ -1,0 +1,51 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="112dp"
+    android:height="112dp"
+    android:viewportWidth="112"
+    android:viewportHeight="112">
+  <group>
+    <clip-path
+        android:pathData="M56,0L56,0A56,56 0,0 1,112 56L112,56A56,56 0,0 1,56 112L56,112A56,56 0,0 1,0 56L0,56A56,56 0,0 1,56 0z"/>
+    <path
+        android:pathData="M56,56m-56,0a56,56 0,1 1,112 0a56,56 0,1 1,-112 0">
+      <aapt:attr name="android:fillColor">
+        <gradient 
+            android:startX="56"
+            android:startY="0"
+            android:endX="56"
+            android:endY="112"
+            android:type="linear">
+          <item android:offset="0" android:color="#FF10204D"/>
+          <item android:offset="0.6" android:color="#FF263971"/>
+          <item android:offset="1" android:color="#FF3C5396"/>
+        </gradient>
+      </aapt:attr>
+    </path>
+    <path
+        android:pathData="M56,57.11m-49.11,0a49.11,49.11 0,1 1,98.22 0a49.11,49.11 0,1 1,-98.22 0">
+      <aapt:attr name="android:fillColor">
+        <gradient 
+            android:centerX="56"
+            android:centerY="53.66"
+            android:gradientRadius="52.55"
+            android:type="radial">
+          <item android:offset="0" android:color="#FF3E5FBA"/>
+          <item android:offset="1" android:color="#FF223466"/>
+        </gradient>
+      </aapt:attr>
+    </path>
+    <path
+        android:pathData="M56,56m-47.5,0a47.5,47.5 0,1 1,95 0a47.5,47.5 0,1 1,-95 0"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:strokeColor="#D4D8E3"/>
+    <group>
+      <clip-path
+          android:pathData="M43,40h30v32h-30z"/>
+      <path
+          android:pathData="M70.64,51.85L49.23,40.51C48.62,40.18 47.92,40.01 47.21,40C46.1,40 45.02,40.41 44.23,41.13C43.44,41.86 43,42.84 43,43.86V68.19C43,68.87 43.2,69.54 43.58,70.13C43.95,70.71 44.49,71.2 45.14,71.52C45.79,71.85 46.53,72.02 47.27,72C48.01,71.98 48.73,71.78 49.36,71.42L70.79,59.01C71.46,58.62 72,58.09 72.38,57.46C72.75,56.82 72.94,56.11 72.93,55.39C72.91,54.67 72.69,53.96 72.29,53.34C71.89,52.72 71.32,52.21 70.64,51.85Z"
+          android:fillColor="#ffffff"/>
+    </group>
+  </group>
+</vector>
