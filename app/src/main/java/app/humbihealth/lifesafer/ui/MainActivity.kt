@@ -1,14 +1,9 @@
-package app.humbihealth.lifesafer
+package app.humbihealth.lifesafer.ui
 
-import android.annotation.SuppressLint
 import android.app.Activity
-import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import android.view.View
 import android.widget.Toast
-import androidx.core.content.ContentProviderCompat.requireContext
 import app.humbihealth.lifesafer.databinding.ActivityMainBinding
 
 class MainActivity : Activity() {

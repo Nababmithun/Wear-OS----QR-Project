@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#0F1E4A"
     android:padding="@dimen/box_inset_layout_padding"
-    tools:context=".MainActivity"
+    tools:context=".ui.MainActivity"
     tools:deviceIds="wear">
 
     <androidx.constraintlayout.widget.ConstraintLayout

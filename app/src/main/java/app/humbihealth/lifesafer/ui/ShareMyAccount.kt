@@ -1,8 +1,8 @@
-package app.humbihealth.lifesafer
+package app.humbihealth.lifesafer.ui
 
 import android.app.Activity
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import app.humbihealth.lifesafer.R
 
 class ShareMyAccount : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
