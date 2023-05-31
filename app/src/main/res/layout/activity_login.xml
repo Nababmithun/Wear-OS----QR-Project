@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#0F1E4A"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.32" />
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.68" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_robi"
+                android:layout_width="0dp"
+                android:src="@drawable/ic_lifesafer"
+                android:layout_height="60dp"
+                android:adjustViewBounds="true"
+                app:layout_constraintEnd_toStartOf="@id/guideline_right"
+                app:layout_constraintStart_toEndOf="@id/guideline_left"
+                tools:ignore="MissingConstraints" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/email"
+                android:layout_marginTop="30dp"
+                style="@style/edit_text"
+                android:layout_marginHorizontal="@dimen/xxLargePadding"
+                android:hint="email"
+                android:inputType="text"
+                app:layout_constraintTop_toBottomOf="@id/iv_robi"
+                tools:ignore="MissingConstraints" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_mobile_number"
+                android:layout_marginTop="10dp"
+                style="@style/edit_text"
+                android:layout_marginHorizontal="30dp"
+                android:hint="password"
+                android:inputType="text"
+                app:layout_constraintTop_toBottomOf="@id/email"
+                tools:ignore="MissingConstraints" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnVerify"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/next_drwable"
+                android:layout_marginTop="10dp"
+                android:text="Login"
+                android:textColor="#100F0F"
+                app:layout_constraintTop_toBottomOf="@id/et_mobile_number"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:textSize="10sp"
+                tools:ignore="ButtonStyle,HardCodedText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

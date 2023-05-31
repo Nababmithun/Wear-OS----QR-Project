@@ -1,15 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!--
-    Because the window insets on round devices are larger than 15dp, this padding only applies
-    to square screens.
-    -->
-    <dimen name="box_inset_layout_padding">0dp</dimen>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">120dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="design_bottom_navigation_height" tools:override="true">70dp</dimen>
 
-    <!--
-    This padding applies to both square and round screens. The total padding between the buttons
-    and the window insets is box_inset_layout_padding (above variable) on square screens and
-    inner_frame_layout_padding (below variable) on round screens.
-    -->
-    <dimen name="inner_frame_layout_padding">5dp</dimen>
+
+    <!--Text-->
+    <dimen name="xxxSmallText">10sp</dimen>
+    <dimen name="xxSmallText">11sp</dimen>
+    <dimen name="pre_regular_text_size">12sp</dimen>
+
+    // Android default
+    <dimen name="title_text_size">21sp</dimen>
+    <dimen name="edit_text_size">16sp</dimen>
+    <dimen name="normal_text_size">14sp</dimen>
+    <dimen name="normal_text_size_plus_1">15sp</dimen>
+    <dimen name="dialog_text_size">16sp</dimen>
+    <dimen name="tab_text_size">@dimen/normal_text_size</dimen>
+    <dimen name="body_text_size">@dimen/normal_text_size</dimen>
+    <dimen name="secondary_text_size">@dimen/normal_text_size</dimen>
+    <dimen name="button_text_size">@dimen/normal_text_size</dimen>
+    <dimen name="toolbar_title_text_size">20dp</dimen>
+    <dimen name="menu_title_text_size">@dimen/normal_text_size</dimen>
+
+
+    <dimen name="mediumText">17sp</dimen>
+    <dimen name="normalText">18sp</dimen>
+    <dimen name="largeText">18sp</dimen>
+    <dimen name="xLargeText">22sp</dimen>
+    <dimen name="xxLargeText">24sp</dimen>
+    <dimen name="xxxLargeText">26sp</dimen>
+    <dimen name="xxxxLargeText">28sp</dimen>
+    <dimen name="titleTextSize">34sp</dimen>
+
+
+    <!--Margin-->
+    <dimen name="xxxSmallMargin">2dp</dimen>
+    <dimen name="xxSmallMargin">3dp</dimen>
+    <dimen name="xSmallMargin">4dp</dimen>
+    <dimen name="smallMargin">6dp</dimen>
+    <dimen name="mediumMargin">8dp</dimen>
+    <dimen name="normalMargin">10dp</dimen>
+    <dimen name="largeMargin">12dp</dimen>
+    <dimen name="xLargeMargin">14dp</dimen>
+    <dimen name="xxLargeMargin">16dp</dimen>
+    <dimen name="xxxLargeMargin">18dp</dimen>
+    <dimen name="veryLargeMargin">30dp</dimen>
+
+
+    <!--Padding-->
+    <dimen name="rootPadding">36dp</dimen>
+    <dimen name="smallPadding">6dp</dimen>
+    <dimen name="mediumPadding">8dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="preNormalPadding">13dp</dimen>
+    <dimen name="normalPadding">16dp</dimen>
+    <dimen name="largePadding">18dp</dimen>
+    <dimen name="xLargePadding">20dp</dimen>
+    <dimen name="xxLargePadding">30dp</dimen>
+    <dimen name="xxxLargePadding">35dp</dimen>
+
+    <dimen name="otp_box_width">45dp</dimen>
+    <dimen name="otp_box_height">40dp</dimen>
+
+    <dimen name="number_pad_btn_height">55dp</dimen>
+
+    <!-- Item View Service -->
+    <dimen name="img_service_list_width">100dp</dimen>
+    <dimen name="img_service_list_height">100dp</dimen>
+
+    <!-- Service Details -->
+    <dimen name="view_pager_height">376dp</dimen>
+
+    <dimen name="ic_size">32dp</dimen>
+
+    <dimen name="button_height">44dp</dimen>
+
+    <dimen name="cardHeight">88dp</dimen>
+    <dimen name="cardHeightComplainCounter">78dp</dimen>
+    <dimen name="cardEventHeight">75dp</dimen>
+
+    <dimen name="demo_sheet_rounded_corner">20dp</dimen>
+
+    <dimen name="toolbar_logo_size">100dp</dimen>
+
+    <!--Slider-->
+    <dimen name="shadow_height">4dp</dimen>
+    <dimen name="dots_height">40dp</dimen>
+
+    <dimen name="design_fab_image_size" tools:override="true">50dp</dimen>
+    <dimen name="corner_radius">6dp</dimen>
+    <dimen name="small_corner_radius">3dp</dimen>
+    <dimen name="quick_service_icon_size">35dp</dimen>
+    <dimen name="ds_service_icon_size">52dp</dimen>
+    <dimen name="toolbar_image_size">35dp</dimen>
+    <dimen name="dialog_top_margin">60dp</dimen>
+    <dimen name="robi_alpha_logo_size">110dp</dimen>
+    <dimen name="page_heading_2">17sp</dimen>
+    <dimen name="page_heading_1">22sp</dimen>
+
+
+
 </resources>

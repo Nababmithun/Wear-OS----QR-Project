@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#E2ECFF</color>
+    <color name="colorPrimaryDark">#E2ECFF</color>
+    <color name="colorAccent">#E2ECFF</color>
+    <color name="gray">#9D9D9D</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFD700</color>
+    <color name="green">#0FAA3C</color>
+    <color name="purple">#64288C</color>
+    <color name="light_red">#FFF5F5</color>
+
+
+    <color name="btnDisabled">#cfd7e7</color>
+    <color name="offWhite">#F6F6F6</color>
+    <color name="darkWhite">#e2e1e1</color>
+    <color name="redLight">@android:color/holo_red_light</color>
+    <color name="divider_color">#e4e4e4</color>
+    <color name="last_30_days">#545454</color>
+
+</resources>
