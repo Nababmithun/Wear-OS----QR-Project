@@ -11,6 +11,11 @@
         <item name="android:paddingEnd">10dp</item>
     </style>
 
-
+    <style name="AlertDialogStyle" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="colorAccent">#131111</item>
+        <item name="android:textColorPrimary">#131111</item>
+        <item name="android:background">#131111</item>
+        <item name="dialogCornerRadius">8dp</item>
+    </style>
 
 </resources>

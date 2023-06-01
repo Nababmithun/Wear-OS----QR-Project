@@ -1,9 +1,9 @@
-package app.humbihealth.lifesafer
+package com.ewnbd.lifvesafer.di
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 
 @HiltAndroidApp
-class BaseApp: Application() {
+class Starter: Application() {
 }

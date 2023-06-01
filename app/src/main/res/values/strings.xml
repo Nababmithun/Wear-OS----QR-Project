@@ -5,4 +5,264 @@
     values-round/strings.xml for round devices.
     -->
     <string name="hello_world">Ikram Vaia!</string>
+    <string name="no_internet">Please check your internet connection</string>
+    <string name="common_error_message">Something went wrong. Please try again.</string>
+    <string name="common_success_message">Request done successfully!</string>
+    <string name="no_file">No file found</string>
+    <string name="convert_fail">Can not upload this file</string>
+    <string name="just_a_moment">Just a moment....</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="single_space">\u00a0</string>
+    <string name="divider">|</string>
+    <string name="bracket_start">(</string>
+    <string name="bracket_end">)</string>
+    <string name="hash">#</string>
+    <string name="percent">%</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept_camera_permission">We need your permission to use camera of your device. Please allow to continue.</string>
+    <string name="warning">Warning</string>
+    <string name="result">Result</string>
+    <string name="recapture">Recapture</string>
+    <string name="active">Active</string>
+
+    <string name="free_trial">3 Month free trial</string>
+
+    <string name="ok">OK</string>
+    <string name="retry">Retry</string>
+    <string name="close">Close</string>
+    <string name="error_title">Error</string>
+
+    <string name="now">Now</string>
+    <string name="years">Years</string>
+    <string name="months">Months</string>
+    <string name="weeks">Weeks</string>
+    <string name="days">Days</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="ago">ago</string>
+
+    <!--  Welcome  -->
+    <string name="en">En</string>
+    <string name="ar">Ar</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="sub_title">Live safer, safer life</string>
+
+    <!--  Sign Up  -->
+    <string name="create_free_account">Create a free account</string>
+    <string name="already_have_account">Already have an account? Sign In</string>
+    <string name="name">Name</string>
+    <string name="name_hint">Micale smith</string>
+    <string name="name_error">Enter your name</string>
+    <string name="email">Email</string>
+    <string name="email_hint">micale.smith@gmail.com</string>
+    <string name="email_error">Enter your email</string>
+    <string name="code">Code</string>
+    <string name="code_hint">+966</string>
+    <string name="code_error">Enter code</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_number_hint">123456789</string>
+    <string name="phone_error">\t\tEnter your phone number</string>
+    <string name="password">Password</string>
+    <string name="new_password">New Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="password_hint">*******************</string>
+    <string name="password_error">Enter your password</string>
+    <string name="new_password_error">Enter new password</string>
+    <string name="old_password_error">Enter old password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm_error">Confirm your password</string>
+    <string name="password_mismatch">Passwords do not match</string>
+    <string name="accept_terms_check">I have accepted Terms &amp; Conditions</string>
+    <string name="register">Register</string>
+
+    <!--  OTP  -->
+    <string name="verify_otp">Verify OTP</string>
+    <string name="verify_otp_title">Enter the code sent to your email</string>
+    <string name="dash">-</string>
+    <string name="resend_otp">Didn’t get it? Send a new code</string>
+    <string name="verify">Verify</string>
+
+    <!--  Sign In  -->
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account">Don’t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+
+    <!--  Forget Password  -->
+    <string name="submit">Submit</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="forgot_password_subtitle">To reset your password, please enter your phone number.</string>
+    <string name="set_new_password">Set new password</string>
+    <string name="new_password_subtitle">To reset a new password, please enter the new password below</string>
+    <string name="reset_password_subtitle">To reset your password, please enter the old password. </string>
+
+    <!--  Home  -->
+    <string name="subscribe">Subscribe</string>
+    <string name="share_id">Share ID</string>
+    <string name="share_track_id">Share your track ID or QR code</string>
+    <string name="days_remaining">days remaining</string>
+    <string name="tracking_session_history">Tracking Session History</string>
+    <string name="add_track_id">Add your track ID/Driver</string>
+    <string name="enter_6_digit_id">Enter 6 digit ID</string>
+    <string name="add_id">Add ID</string>
+    <string name="choose_vehicle">Choose a vehicle</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="common_body">You have a new notification</string>
+
+    <string name="good_morning">Good Morning!</string>
+    <string name="good_afternoon">Good Afternoon!</string>
+    <string name="good_evening">Good Evening!</string>
+
+    <string name="alert_manage">Alert manage</string>
+    <string name="driver_list">Driver list</string>
+    <string name="manage_vehicle">Manage Vehicle</string>
+    <string name="payment_history">Payment history</string>
+    <string name="session_history">Session history</string>
+    <string name="important_contact">Important contact</string>
+    <string name="notifications">Notifications</string>
+    <string name="password_change">Password change</string>
+    <string name="report_issue">Report an issue</string>
+    <string name="delete_account">Delete account</string>
+    <string name="logout">Logout</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms">Terms &amp; Condition</string>
+
+    <string name="sos">SOS</string>
+    <string name="speed">Speed:</string>
+
+    <string name="tsh_id">TSH ID:</string>
+    <string name="start_time">Start Time:</string>
+    <string name="end_time">End Time:</string>
+
+    <string name="no_file_read_permission">No file read permission</string>
+    <string name="select_picture">Select Picture</string>
+
+    <string name="share_id_intro">Share your tracking session with the user by sharing the Tracking ID or QR code</string>
+    <string name="hold_start_intro">Holding the Start button will start the tracking session, allowing the user to monitor your location, speed, and other tracking metrics.</string>
+    <string name="skip">Skip</string>
+
+    <string name="hold_on">Hold On</string>
+    <string name="start">Start</string>
+
+    <!--  Scanner  -->
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="enter_id">Enter ID Instead</string>
+    <string name="distance">Distance:</string>
+    <string name="kms">KM</string>
+
+    <!--  Tracking  -->
+    <string name="start_location">Start Location</string>
+    <string name="end_location">End Location</string>
+
+    <string name="speed_tracker">Speed tracker</string>
+    <string name="limit_80">Limit</string>
+    <string name="avg_40">AVG.</string>
+    <string name="limit_unit">km/h</string>
+
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="copied">Copied to clipboard!</string>
+
+    <string name="enable_gps">To view your current location, please enable your GPS</string>
+    <string name="settings">Settings</string>
+    <string name="allow">Allow</string>
+    <string name="accept_permission">Please accept location permission from Settings</string>
+    <string name="no_location_found">Can not find your location. Please try again.</string>
+    <string name="stop_tracking_title">Are you sure?</string>
+    <string name="stop_tracking_description">PS: All your tracking users will be notified upon your confirmation.</string>
+
+    <!--  Manage Vehicle  -->
+    <string name="add_new_vehicle">Add new vehicle</string>
+    <string name="vehicle_type">Vehicle type</string>
+    <string name="plate_hint">1234</string>
+    <string name="plate_number">Plate number</string>
+    <string name="plate_error">Enter plate number</string>
+    <string name="vehicle_type_error">Select vehicle type</string>
+    <string name="add">Add</string>
+    <string name="colour">Colour</string>
+    <string name="delete_vehicle_alert">Are you sure to delete this vehicle?</string>
+    <string name="session">Session</string>
+    <string name="session_active">Please stop ongoing tracking to continue</string>
+
+    <string name="details">Details</string>
+    <string name="id_no">ID No.</string>
+
+
+    <!--  Subscription  -->
+    <string name="subscription">Subscription</string>
+    <string name="later">Later</string>
+    <string name="days_left">days left</string>
+    <string name="your_free_trial">Your free trial has</string>
+    <string name="your_subscription">Your subscription has</string>
+    <string name="subscription_end">Your subscription has ended</string>
+    <string name="free_trial_end">Your free trial has ended</string>
+    <string name="free_trial_end_details">Kindly, subscribe with us to enjoy the full experience</string>
+    <string name="subscription_end_details">Hurry hub and subscribe with our unlimited offers </string>
+
+    <string name="total">Total</string>
+    <string name="payable_amount">Payable Amount</string>
+    <string name="tax_included">(Tax included)</string>
+    <string name="add_duration">Add Duration</string>
+    <string name="in_month">(in month/s)</string>
+    <string name="sr">SR</string>
+    <string name="payment">Payment</string>
+    <string name="coupon">Coupon</string>
+    <string name="discount_available">% discount available</string>
+    <string name="use">Use</string>
+
+
+    <!--  Alert Manage  -->
+    <string name="select">Select</string>
+    <string name="speed_limit">Speed limit</string>
+    <string name="speed_unit">km/h</string>
+    <string name="tracking">Tracking</string>
+    <string name="battery_alert">Battery alert</string>
+    <string name="add_speed">Add Speed</string>
+    <string name="add_percentage">Add Battery Percentage</string>
+    <string name="empty_speed">Speed field can not be empty</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+
+
+    <!--  Important Contact  -->
+    <string name="najm">Najm</string>
+    <string name="najm_number">997</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="ambulance_number">997</string>
+    <string name="police">Police</string>
+    <string name="police_number">999</string>
+    <string name="fire_station">Fire Station</string>
+    <string name="fire_station_number">998</string>
+    <string name="car_service">Car Service</string>
+    <string name="car_service_number">997</string>
+
+
+    <!--  Payment History  -->
+    <string name="date">Date</string>
+    <string name="invoice_no">Invoice No.</string>
+    <string name="amount">Amount</string>
+
+
+    <!--  Report Issue  -->
+    <string name="track_issue">Track Issue</string>
+    <string name="select_issue">Select an issue</string>
+    <string name="service_not_good">Service was not good</string>
+    <string name="seller_rude">Seller\'s behavior was rude</string>
+    <string name="wait_a_lot">I have to wait a lot</string>
+    <string name="cant_track_order">I have to wait a lot</string>
+    <string name="track_previous_issues">Track previous issues</string>
+    <string name="write_in_detail">Write here in details....</string>
+    <string name="no_issue_selected">No issue selected</string>
+
+
+    <!--  Logout  -->
+    <string name="logout_title">Are you sure Logout?</string>
+    <string name="logout_description">PS: All your tracking users will be notified upon your confirmation.</string>
+    <string name="account_delete_title">Confirm to delete your account?</string>
+    <string name="account_delete_description">PS: You can not get your data back once deleted.</string>
+
 </resources>
