@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "320369639751",
+    "project_id": "lifve-safer",
+    "storage_bucket": "app.humbihealth.lifesafer"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320369639751:android:afba914996f672a4bd0c62",
+        "android_client_info": {
+          "package_name": "app.humbihealth.lifesafer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320369639751-158io3mgh3u8ke4q7evgg93a9mgl4tl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuftoOJjy_XqV4ikPCorNPU-sYel7hIDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320369639751-158io3mgh3u8ke4q7evgg93a9mgl4tl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
