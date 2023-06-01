@@ -7,6 +7,7 @@
     android:background="#0F1E4A"
     android:layout_height="match_parent"
     tools:context=".ui.LoginActivity">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_margin="18dp"
         android:layout_width="match_parent"
@@ -15,18 +16,21 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <androidx.constraintlayout.widget.Guideline
                 android:id="@+id/guideline_left"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 app:layout_constraintGuide_percent="0.32" />
+
             <androidx.constraintlayout.widget.Guideline
                 android:id="@+id/guideline_right"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 app:layout_constraintGuide_percent="0.68" />
+
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/iv_robi"
                 android:layout_width="0dp"
@@ -36,6 +40,7 @@
                 app:layout_constraintEnd_toStartOf="@id/guideline_right"
                 app:layout_constraintStart_toEndOf="@id/guideline_left"
                 tools:ignore="MissingConstraints" />
+
             <TextView
                 android:layout_marginLeft="17sp"
                 android:id="@+id/forgetpasswordd"
@@ -49,6 +54,7 @@
                 app:layout_constraintStart_toStartOf="@id/iv_robi"
                 app:layout_constraintTop_toBottomOf="@id/iv_robi"
                 tools:ignore="UnusedAttribute" />
+
             <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/email"
                 android:layout_marginTop="19dp"
@@ -64,7 +70,6 @@
                 app:layout_constraintTop_toBottomOf="@id/iv_robi"
                 tools:ignore="MissingConstraints" />
 
-
             <TextView
                 android:layout_marginLeft="17sp"
                 android:id="@+id/forgetpasswordd1"
@@ -78,6 +83,7 @@
                 app:layout_constraintStart_toStartOf="@id/email"
                 app:layout_constraintTop_toBottomOf="@id/iv_robi"
                 tools:ignore="UnusedAttribute" />
+
             <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/et_mobile_number"
                 android:layout_marginTop="16dp"
@@ -92,23 +98,6 @@
                 app:layout_constraintTop_toBottomOf="@id/email"
                 tools:ignore="MissingConstraints" />
 
-           <!-- <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btnVerify"
-                android:layout_width="match_parent"
-                android:layout_height="18sp"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:layout_marginLeft="60dp"
-                android:layout_marginRight="60dp"
-                android:textSize="8dp"
-                android:background="@drawable/next_drwable"
-                android:layout_marginTop="10dp"
-                android:text="Log in"
-                android:textColor="#9D9D9D"
-                app:layout_constraintTop_toBottomOf="@id/et_mobile_number"
-                android:layout_marginHorizontal="15sp"
-                tools:ignore="ButtonStyle,HardCodedText" />-->
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnVerify"
                 android:layout_width="match_parent"
@@ -125,6 +114,7 @@
                 android:layout_marginLeft="28dp"
                 android:layout_marginRight="28dp"
                 tools:ignore="ButtonStyle,HardCodedText" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
