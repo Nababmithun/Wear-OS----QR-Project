@@ -1,10 +1,11 @@
-package app.humbihealth.lifesafer.ui
+package app.humbihealth.lifesafer.ui.splash
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import app.humbihealth.lifesafer.R
+import app.humbihealth.lifesafer.ui.auth.LoginActivity
 
 class SplashScreen : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,13 +1,10 @@
-package app.humbihealth.lifesafer.ui
+package app.humbihealth.lifesafer.ui.auth
 
 import android.app.Activity
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import app.humbihealth.lifesafer.R
 import app.humbihealth.lifesafer.databinding.ActivityLoginBinding
-import app.humbihealth.lifesafer.databinding.ActivityLoginBinding.inflate
-import app.humbihealth.lifesafer.databinding.ActivityMainBinding
+import app.humbihealth.lifesafer.ui.MainActivity
 
 class LoginActivity : Activity() {
     private lateinit var binding: ActivityLoginBinding

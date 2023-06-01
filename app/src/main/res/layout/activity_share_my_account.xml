@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:background="#0F1E4A"
     android:layout_height="match_parent"
-    tools:context=".ui.ShareMyAccount">
+    tools:context=".ui.shareaccount.ShareMyAccount">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

@@ -1,4 +1,4 @@
-package app.humbihealth.lifesafer.ui
+package app.humbihealth.lifesafer.ui.shareaccount
 
 import android.app.Activity
 import android.os.Bundle

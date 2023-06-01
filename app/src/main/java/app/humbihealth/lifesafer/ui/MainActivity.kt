@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import app.humbihealth.lifesafer.databinding.ActivityMainBinding
+import app.humbihealth.lifesafer.ui.shareaccount.ShareMyAccount
 
 class MainActivity : Activity() {
 

@@ -8,7 +8,7 @@
 
     <activity
         android:id="@+id/splashScreen2"
-        android:name="app.humbihealth.lifesafer.ui.SplashScreen"
+        android:name="app.humbihealth.lifesafer.ui.splash.SplashScreen"
         android:label="activity_splash_screen"
         tools:layout="@layout/activity_splash_screen" />
     <activity
@@ -18,7 +18,7 @@
         tools:layout="@layout/activity_main" />
     <activity
         android:id="@+id/shareMyAccount2"
-        android:name="app.humbihealth.lifesafer.ui.ShareMyAccount"
+        android:name="app.humbihealth.lifesafer.ui.shareaccount.ShareMyAccount"
         android:label="activity_share_my_account"
         tools:layout="@layout/activity_share_my_account" />
 </navigation>
